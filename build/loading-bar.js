@@ -140,7 +140,7 @@ angular.module('cfp.loadingBarInterceptor', ['cfp.loadingBar'])
             }
           }
           return $q.reject(rejection);
-      };
+      }
     }];
 
     $httpProvider.interceptors.push(interceptor);

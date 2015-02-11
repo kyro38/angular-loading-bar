@@ -135,7 +135,7 @@
 	      	}
 	      	return $q.reject(rejection);
 	      }
-	  };
+	  }
 	}];
 
 	$httpProvider.interceptors.push(interceptor);
